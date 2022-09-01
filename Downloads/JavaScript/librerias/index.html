@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/carrito.js"></script>
+    <script defer src="js/app.js"></script>
+    
+
+    <title>Atica Moda</title>
+</head>
+<body>
+    <header>
+        <h1> Carrito de Compras </h1>
+        <div class="container"></div>
+
+        <select id="prenda">
+
+
+        </select>
+
+        <div class="carrito"></div>
+
+    
+        <div class="div-cotizador">
+        <h2 class="center separador">Completa los datos solicitados</h2>
+        <label for="prenda">Selecciona la prenda </label>
+        <select id="prenda">
+            <option selected disabled>...</option>
+            <!-- <option value="prenda">Prenda</option> -->
+        </select>
+      
+        <label for="cantidad">Ingresa la cantidad de prendas solicitadas: </label>
+        <input type="number" id="cantidad" value="1" min="1" max="10">
+        <div class="center separador">
+            <button class="button button-outline">Total</button>
+        </div>
+    
+
+        <div class="center separador">
+            <p class="importe">Precio estimado: $ <span>0.00</span><span class="guardar ocultar" title="Enviar por Email">📧</span></p>
+        </div>
+    </div>
+
+
+    </header>
+
+
+</body>
+</html>

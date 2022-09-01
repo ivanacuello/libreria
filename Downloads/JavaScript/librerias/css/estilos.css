@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(227, 134, 223);
+
+}
+
+.carrito {
+    display: flex;
+    flex-wrap:wrap;
+    flex-flow: row nowrap;
+    background-color: rgb(227, 134, 223);
+    margin: 5px;
+    padding: 10px;
+}
